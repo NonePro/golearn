@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/nonepro/golearn/language/tree"
+import "github.com/NonePro/golearn/language/tree"
 
 // 面向对象只支持封装，不支持继承和多态
 

@@ -1,3 +1,3 @@
-module github.com/nonepro/golearn
+module github.com/NonePro/golearn
 
 go 1.14
