@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebef8628-0127-4f6c-9856-895896e2f1e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crawler/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/basic/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/branch/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/map/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/slice/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/string/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/tree/Node.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language/tree/entity/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vnuEy5owop8S6Eh2WWBT2WF0wW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/language/tree/entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/language/string/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/language/tree/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/language/array/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/language/slice/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/language/map/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="450" key="GridCell.Tab.0.bottom" timestamp="1627736933121">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1627736933121" />
+    <state width="1638" height="450" key="GridCell.Tab.0.center" timestamp="1627736933120">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1627736933120" />
+    <state width="1638" height="450" key="GridCell.Tab.0.left" timestamp="1627736933119">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1627736933119" />
+    <state width="1638" height="450" key="GridCell.Tab.0.right" timestamp="1627736933120">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="450" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1627736933120" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1627743534531">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1627743534531" />
+    <state x="539" y="235" width="602" height="580" key="find.popup" timestamp="1627742084843">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="539" y="235" width="602" height="580" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1627742084843" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1627723757636">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1627723757636" />
+  </component>
+</project>
