@@ -20,12 +20,12 @@ func main() {
     root.Right.Value = 5
     root.Right.Left = &tree.Node{Value: 6, Left: &tree.Node{Value: 7}, Right: &tree.Node{Value: 9}}
     fmt.Println("             ", root)
-    /***
+    /******************************************************
      *                      3
      *                0            5
      *            4     0      6
      *                      7     9
-     */
+     *****************************************************/
 
     fmt.Println()
     fmt.Println("自定义工厂方法")

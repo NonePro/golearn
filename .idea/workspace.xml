@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7e276610-fbba-4c80-8919-49a6a2fda2d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/golearn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/array/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/array/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/basic/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/basic/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/branch/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lang/branch/abc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/branch/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/branch/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/func/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/func/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/loop/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/loop/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/map/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/slice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/slice/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/string/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/string/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/tree/Node.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/tree/node.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/tree/entity/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/tree/entity/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/tree/entity/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lang/tree/entity/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
