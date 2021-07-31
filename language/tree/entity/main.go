@@ -6,19 +6,19 @@ import "github.com/nonepro/golearn/language/tree"
 // 面向对象只支持封装，不支持继承和多态
 
 // 定义方法
-func printValue1(node tree.TreeNode) {
-    fmt.Println(node.value)
+func printValue1(node tree.Node) {
+    fmt.Println(node.Value)
 }
 
 func main() {
 
     fmt.Println("内置构建方式")
-    var root TreeNode
-    root = TreeNode{value: 3, left: &TreeNode{}, right: &TreeNode{}}
-    root.left.left = &TreeNode{4, nil, nil}
-    root.left.right = new(TreeNode)
-    root.right.value = 5
-    root.right.left = &TreeNode{6, &TreeNode{7, nil, nil}, &TreeNode{9, nil, nil}}
+    var root tree.Node
+    root = tree.Node{Value: 3, Left: &tree.Node{}, Right: &tree.Node{}}
+    root.Left.Left = &tree.Node{Value: 4}
+    root.Left.Right = new(tree.Node)
+    root.Right.Value = 5
+    root.Right.Left = &tree.Node{6, &tree.Node{Value: 7}, &tree.Node{Value: 9}}
     fmt.Println("             ", root)
     /***
      *                      3
@@ -29,7 +29,7 @@ func main() {
 
     fmt.Println()
     fmt.Println("自定义工厂方法")
-    root1 := createTreeNode(3)
+    root1 := tree.CreateTreeNode(3)
     fmt.Println("             ", root1)
 
     fmt.Println()
@@ -41,39 +41,39 @@ func main() {
 
     fmt.Println()
     fmt.Println("包装一下：如何让一组方法相关 => 引入方法接收者概念 (这是工程管理需求，而不是技术实现需求)")
-    root.printValue2()
+    root.PrintValue2()
 
     fmt.Println("再进一步：go 到底是传值还是传址")
-    fmt.Println("         原始值:", root.value)
-    root.setValue1(100)
-    fmt.Println("         修改后:", root.value)
+    fmt.Println("         原始值:", root.Value)
+    root.SetValue1(100)
+    fmt.Println("         修改后:", root.Value)
     fmt.Println("         结论：结构体也是传值的")
 
     fmt.Println()
     fmt.Println("再再进一步：值拷贝过于繁琐和可能的性能问题怎么办 => 支持指针类型来传地址的值，这里依然是传值")
-    fmt.Println("         原始值:", root.value)
-    root.setValue(100)
-    fmt.Println("         修改后:", root.value)
+    fmt.Println("         原始值:", root.Value)
+    root.SetValue(100)
+    fmt.Println("         修改后:", root.Value)
     fmt.Println("         传值传址不影响内部代码，都是 node.value = v ?")
     fmt.Println("         >>>有编译器的存在,这些负担不应该留给开发者。虽然解放了手，但是大脑不要偷懒，底层什么逻辑还是要思考")
 
     fmt.Println()
     fmt.Println("再再再在进一步：")
     fmt.Println("      1、如果用指针类型访问传值结构体的接收者声明呢?")
-    root.value = 0
+    root.Value = 0
     pRoot := &root
-    fmt.Println("         原始值:pRoot.value =", pRoot.value)
-    fmt.Println("         原始值: root.value =", root.value)
-    pRoot.setValue1(100)
-    fmt.Println("         修改后:pRoot.value =", pRoot.value)
-    fmt.Println("         修改后: root.value =", root.value)
+    fmt.Println("         原始值:pRoot.value =", pRoot.Value)
+    fmt.Println("         原始值: root.value =", root.Value)
+    pRoot.SetValue1(100)
+    fmt.Println("         修改后:pRoot.value =", pRoot.Value)
+    fmt.Println("         修改后: root.value =", root.Value)
 
     fmt.Println("      2、如果用指针类型访问指针类型的接收者声明呢?")
-    fmt.Println("         原始值:pRoot.value =", pRoot.value)
-    fmt.Println("         原始值: root.value =", root.value)
-    pRoot.setValue(100)
-    fmt.Println("         修改后:pRoot.value =", pRoot.value)
-    fmt.Println("         修改后: root.value =", root.value)
+    fmt.Println("         原始值:pRoot.value =", pRoot.Value)
+    fmt.Println("         原始值: root.value =", root.Value)
+    pRoot.SetValue(100)
+    fmt.Println("         修改后:pRoot.value =", pRoot.Value)
+    fmt.Println("         修改后: root.value =", root.Value)
 
     fmt.Println()
     fmt.Println("通过上面的实验，我们发现：")
@@ -89,5 +89,5 @@ func main() {
     fmt.Println("         d、如果比较在意这种拷贝带来的性能问题，go支持通过指针类型传递地址来修改")
     fmt.Println("         e、变量的本质是内存地址，而类型主要在于决定怎么看待使用这块内存里的数据")
 
-    root.travel()
+    root.Travel()
 }

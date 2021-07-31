@@ -2,35 +2,35 @@ package tree
 
 import "fmt"
 
-type TreeNode struct {
-    value       int
-    left, right *TreeNode
+type Node struct {
+    Value       int
+    Left, Right *Node
 }
 
-func (node *TreeNode) travel() {
+func (node *Node) Travel() {
     if node == nil {
         return
     }
-    fmt.Println(node.value)
+    fmt.Println(node.Value)
     // 注意这里不需要判断node.left != nil
-    node.left.travel()
-    node.right.travel()
+    node.Left.Travel()
+    node.Right.Travel()
 }
 
-func (node *TreeNode) setValue(v int) {
-    node.value = v
+func (node *Node) SetValue(v int) {
+    node.Value = v
 }
 
-func (node TreeNode) setValue1(v int) {
-    node.value = v
+func (node Node) SetValue1(v int) {
+    node.Value = v
 }
 
-func (node TreeNode) printValue2() {
-    fmt.Println(node.value)
+func (node Node) PrintValue2() {
+    fmt.Println(node.Value)
 }
 
 // 创建工厂
-func createTreeNode(value int) *TreeNode {
+func CreateTreeNode(value int) *Node {
     // 注意这里返回了局部变量的地址，是不是很神奇
-    return &TreeNode{value: value}
+    return &Node{Value: value}
 }
