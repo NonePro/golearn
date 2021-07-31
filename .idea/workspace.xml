@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebef8628-0127-4f6c-9856-895896e2f1e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/array/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/basic/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/branch/abc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/map/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/slice/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/string/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/tree/Node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/tree/entity/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/tree/entity/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/language/tree/entity/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
