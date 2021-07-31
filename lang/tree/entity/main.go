@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/nonepro/golearn/language/tree"
+import "github.com/nonepro/golearn/lang/tree"
 
 // 面向对象只支持封装，不支持继承和多态
 
@@ -18,7 +18,7 @@ func main() {
     root.Left.Left = &tree.Node{Value: 4}
     root.Left.Right = new(tree.Node)
     root.Right.Value = 5
-    root.Right.Left = &tree.Node{6, &tree.Node{Value: 7}, &tree.Node{Value: 9}}
+    root.Right.Left = &tree.Node{Value: 6, Left: &tree.Node{Value: 7}, Right: &tree.Node{Value: 9}}
     fmt.Println("             ", root)
     /***
      *                      3

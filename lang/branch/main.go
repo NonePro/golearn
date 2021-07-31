@@ -25,7 +25,7 @@ func grade(score int) string {
 }
 
 func main() {
-    const fileName = "./language/branch/abc.txt"
+    const fileName = "./lang/branch/abc.txt"
     if contents, err := ioutil.ReadFile(fileName); err != nil {
         fmt.Println(err)
     } else {
